@@ -18,6 +18,7 @@ end)
 Event.add(defines.events.on_marked_for_deconstruction, function(event)
     -- Check which type of decon a player is allowed
     local index = event.player_index
+    if not index then return end
     if chache[index] == nil then
         local player = Game.get_player_by_index(index)
         if Roles.player_allowed(player, 'fast-tree-decon') then chache[index] = 'fast'
