@@ -325,6 +325,7 @@ local function get_player_list_order()
     end
 
     --[[Adds fake players to the player list
+    local tick = game.tick+1
     for i = 1, 10 do
         local online_time = math.random(1, tick)
         local afk_time = math.random(online_time-(tick/10), tick)
@@ -338,7 +339,7 @@ local function get_player_list_order()
             caption = caption,
             tooltip = tooltip
         }
-    end]]
+    end--]]
 
     return player_list_order
 end
