@@ -19,7 +19,7 @@ _C = require 'expcore.common' -- _C is used to store lots of common functions ex
 
 -- Please go to config/file_loader.lua to edit the files that are loaded
 log('[INFO] Getting file loader config')
-local files = require 'config._file_loader' --- @dep config._file_loader
+local files = require 'config._file_loader'-- @dep config._file_loader
 
 -- Loads all files from the config and logs that they are loaded
 local total_file_count = string.format('%3d', #files)

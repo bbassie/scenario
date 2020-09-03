@@ -2,9 +2,9 @@
 -- also displays a ping above users who are named in the message
 -- @addon Chat-Popups
 
-local Game = require 'utils.game' --- @dep utils.game
-local Event = require 'utils.event' --- @dep utils.event
-local config = require 'config.popup_messages' --- @dep config.popup_messages
+local Game = require 'utils.game'-- @dep utils.game
+local Event = require 'utils.event'-- @dep utils.event
+local config = require 'config.popup_messages'-- @dep config.popup_messages
 
 local send_text = Game.print_player_floating_text -- (player_index, text, color)
 

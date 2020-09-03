@@ -41,11 +41,11 @@ end)
 
 ]]
 
-local Event = require 'utils.event' --- @dep utils.event
-local Async = require 'expcore.async' --- @dep expcore.async
-local Datastore = require 'expcore.datastore' --- @dep expcore.datastore
-local Commands = require 'expcore.commands' --- @dep expcore.commands
-require 'config.expcore.command_general_parse' --- @dep config.expcore.command_general_parse
+local Event = require 'utils.event'-- @dep utils.event
+local Async = require 'expcore.async'-- @dep expcore.async
+local Datastore = require 'expcore.datastore'-- @dep expcore.datastore
+local Commands = require 'expcore.commands'-- @dep expcore.commands
+require 'config.expcore.command_general_parse'-- @dep config.expcore.command_general_parse
 
 --- Common player data that acts as the root store for player data
 local PlayerData = Datastore.connect('PlayerData', true) -- saveToDisk

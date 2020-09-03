@@ -2,7 +2,7 @@
 -- @config Chat-Reply
 
 local Async = require 'expcore.async'
-local format_time = _C.format_time --- @dep expcore.common
+local format_time = _C.format_time-- @dep expcore.common
 
 -- eg Async(async_message, is_command or player, message)
 local async_message = Async.register(function(player, message)
@@ -11,8 +11,8 @@ end)
 
 -- luacheck:ignore 212/player 212/is_command
 return {
-    allow_command_prefix_for_messages = true, --- @setting allow_command_prefix_for_messages when true any message trigger will print to all player when prefixed
-    messages = { --- @setting messages will trigger when ever the word is said
+    allow_command_prefix_for_messages = true, -- @setting allow_command_prefix_for_messages when true any message trigger will print to all player when prefixed
+    messages = { -- @setting messages will trigger when ever the word is said
         ['discord'] = {'info.discord'},
         ['expgaming'] = {'info.website'},
         ['website'] = {'info.website'},
@@ -50,10 +50,10 @@ return {
             return {'chat-bot.verify', player.name}
         end,
     },
-    command_admin_only = false, --- @setting command_admin_only when true will only allow chat commands for admins
-    command_permission = 'command/chat-bot', --- @setting command_permission the permission used to allow command prefixes
-    command_prefix = '!', --- @setting command_prefix prefix used for commands below and to print to all players (if enabled above)
-    commands = { --- @setting commands will trigger only when command prefix is given
+    command_admin_only = false, -- @setting command_admin_only when true will only allow chat commands for admins
+    command_permission = 'command/chat-bot', -- @setting command_permission the permission used to allow command prefixes
+    command_prefix = '!', -- @setting command_prefix prefix used for commands below and to print to all players (if enabled above)
+    commands = { -- @setting commands will trigger only when command prefix is given
         ['dev'] = {'chat-bot.not-real-dev'},
         ['blame'] = function(player)
             local names = {'Cooldude2606', 'arty714', 'badgamernl', 'mark9064', 'aldldl', 'Drahc_pro', player.name}

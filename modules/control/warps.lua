@@ -21,9 +21,9 @@ Warps.make_warp_tag(warp_id)
 
 ]]
 
-local Datastore = require 'expcore.datastore' --- @dep expcore.datastore
-local Global = require 'utils.global' --- @dep utils.global
-local config = require 'config.gui.warps' --- @dep config.warps
+local Datastore = require 'expcore.datastore'-- @dep expcore.datastore
+local Global = require 'utils.global'-- @dep utils.global
+local config = require 'config.gui.warps'-- @dep config.warps
 
 --- Stores all data for the warp system
 local WrapData = Datastore.connect('WrapData')

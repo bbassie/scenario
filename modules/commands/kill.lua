@@ -3,8 +3,8 @@
     @commands Kill
 ]]
 
-local Commands = require 'expcore.commands' --- @dep expcore.commands
-local Roles = require 'expcore.roles' --- @dep expcore.roles
+local Commands = require 'expcore.commands'-- @dep expcore.commands
+local Roles = require 'expcore.roles'-- @dep expcore.roles
 require 'config.expcore.command_general_parse'
 require 'config.expcore.command_role_parse'
 

@@ -3,7 +3,7 @@
 @module Gui
 ]]
 
-local Event = require 'utils.event' --- @dep utils.event
+local Event = require 'utils.event'-- @dep utils.event
 
 local Gui = {
     --- The current highest uid that is being used by a define, will not increase during runtime

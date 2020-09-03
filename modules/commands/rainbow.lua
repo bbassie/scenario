@@ -3,8 +3,8 @@
     @commands Rainbow
 ]]
 
-local Commands = require 'expcore.commands' --- @dep expcore.commands
-local format_chat_colour = _C.format_chat_colour --- @dep expcore.common
+local Commands = require 'expcore.commands'-- @dep expcore.commands
+local format_chat_colour = _C.format_chat_colour-- @dep expcore.common
 
 local function step_component(c1, c2)
     if c1 < 0 then

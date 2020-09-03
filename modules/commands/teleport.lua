@@ -3,7 +3,7 @@
     @commands Teleport
 ]]
 
-local Commands = require 'expcore.commands' --- @dep expcore.commands
+local Commands = require 'expcore.commands'-- @dep expcore.commands
 require 'config.expcore.command_general_parse'
 
 local function teleport(from_player, to_player)

@@ -4,10 +4,10 @@
 -- github: https://github.com/Refactorio/RedMew
 -- ======================================================= --
 
-local Queue = require 'utils.queue' --- @dep utils.queue
-local PriorityQueue = require 'utils.priority_queue' --- @dep utils.priority_queue
-local Event = require 'utils.event' --- @dep utils.event
-local Token = require 'utils.token' --- @dep utils.token
+local Queue = require 'utils.queue'-- @dep utils.queue
+local PriorityQueue = require 'utils.priority_queue'-- @dep utils.priority_queue
+local Event = require 'utils.event'-- @dep utils.event
+local Token = require 'utils.token'-- @dep utils.token
 
 local Task = {}
 

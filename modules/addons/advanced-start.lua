@@ -1,8 +1,8 @@
 --- Adds a better method of player starting items based on production levels.
 -- @addon Advanced-Start
 
-local Event = require 'utils.event' --- @dep utils.event
-local config = require 'config.advanced_start' --- @dep config.advanced_start
+local Event = require 'utils.event'-- @dep utils.event
+local config = require 'config.advanced_start'-- @dep config.advanced_start
 local items = config.items
 
 Event.add(defines.events.on_player_created, function(event)

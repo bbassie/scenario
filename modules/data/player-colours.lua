@@ -1,12 +1,12 @@
 --- Gives players random colours when they join, also applies preset colours to those who have them
 -- @data Player-Colours
 
-local Event = require 'utils.event' --- @dep utils.event
-local Colours = require 'utils.color_presets' --- @dep utils.color_presets
-local config = require 'config.preset_player_colours' --- @dep config.preset_player_colours
+local Event = require 'utils.event'-- @dep utils.event
+local Colours = require 'utils.color_presets'-- @dep utils.color_presets
+local config = require 'config.preset_player_colours'-- @dep config.preset_player_colours
 
 --- Stores the colour that the player wants
-local PlayerData = require 'expcore.player_data' --- @dep expcore.player_data
+local PlayerData = require 'expcore.player_data'-- @dep expcore.player_data
 local PlayerColours = PlayerData.Settings:combine('Colour')
 PlayerColours:set_metadata{
     stringify = function(value)

@@ -146,7 +146,7 @@ PlayerData.Statistics:combine('JoinCount')
 
 ]]
 
-local Event = require 'utils.event' --- @dep utils.event
+local Event = require 'utils.event'-- @dep utils.event
 
 local DatastoreManager = {}
 local Datastores = {}

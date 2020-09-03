@@ -7,9 +7,9 @@
     player-role-alive
 ]]
 
-local Commands = require 'expcore.commands' --- @dep expcore.commands
-local Roles = require 'expcore.roles' --- @dep expcore.roles
-local auto_complete = _C.auto_complete --- @dep expcore.common
+local Commands = require 'expcore.commands'-- @dep expcore.commands
+local Roles = require 'expcore.roles'-- @dep expcore.roles
+local auto_complete = _C.auto_complete-- @dep expcore.common
 require 'config.expcore.command_general_parse'
 
 -- luacheck:ignore 212/player

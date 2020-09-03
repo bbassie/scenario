@@ -3,9 +3,9 @@
     @commands Roles
 ]]
 
-local Commands = require 'expcore.commands' --- @dep expcore.commands
-local Roles = require 'expcore.roles' --- @dep expcore.roles
-local Colours = require 'utils.color_presets' --- @dep utils.color_presets
+local Commands = require 'expcore.commands'-- @dep expcore.commands
+local Roles = require 'expcore.roles'-- @dep expcore.roles
+local Colours = require 'utils.color_presets'-- @dep utils.color_presets
 local format_chat_player_name, format_chat_colour_localized = _C.format_chat_player_name, _C.format_chat_colour_localized
 
 --- Assigns a role to a player

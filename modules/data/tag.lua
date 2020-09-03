@@ -3,13 +3,13 @@
     @data Tag
 ]]
 
-local Commands = require 'expcore.commands' --- @dep expcore.commands
-local Roles = require 'expcore.roles' --- @dep expcore.roles
+local Commands = require 'expcore.commands'-- @dep expcore.commands
+local Roles = require 'expcore.roles'-- @dep expcore.roles
 require 'config.expcore.command_general_parse'
 require 'config.expcore.command_role_parse'
 
 --- Stores the tag for a player
-local PlayerData = require 'expcore.player_data' --- @dep expcore.player_data
+local PlayerData = require 'expcore.player_data'-- @dep expcore.player_data
 local PlayerTags = PlayerData.Settings:combine('Tag')
 PlayerTags:set_metadata{
     permission = 'command/tag'

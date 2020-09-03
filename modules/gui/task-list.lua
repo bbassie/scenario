@@ -4,12 +4,12 @@
     @alias task_list
 ]]
 
-local Gui = require 'expcore.gui' --- @dep expcore.gui
-local Event = require 'utils.event' --- @dep utils.event
-local Roles = require 'expcore.roles' --- @dep expcore.roles
-local config = require 'config.gui.tasks' --- @dep config.gui.tasks
-local Tasks = require 'modules.control.tasks' --- @dep modules.control.tasks
-local format_time = _C.format_time --- @dep expcore.common
+local Gui = require 'expcore.gui'-- @dep expcore.gui
+local Event = require 'utils.event'-- @dep utils.event
+local Roles = require 'expcore.roles'-- @dep expcore.roles
+local config = require 'config.gui.tasks'-- @dep config.gui.tasks
+local Tasks = require 'modules.control.tasks'-- @dep modules.control.tasks
+local format_time = _C.format_time-- @dep expcore.common
 
 -- Styles used for sprite buttons
 local Styles = {

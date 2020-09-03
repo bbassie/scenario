@@ -1,9 +1,9 @@
 --- Makes trees which are marked for decon "decay" quickly to allow faster building
 -- @addon Tree-Decon
 
-local Event = require 'utils.event' --- @dep utils.event
-local Global = require 'utils.global' --- @dep utils.global
-local Roles = require 'expcore.roles' --- @dep expcore.roles
+local Event = require 'utils.event'-- @dep utils.event
+local Global = require 'utils.global'-- @dep utils.global
+local Roles = require 'expcore.roles'-- @dep expcore.roles
 
 -- Global queue used to store trees that need to be removed, also chache for player roles
 local chache = {}

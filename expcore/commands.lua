@@ -185,8 +185,8 @@ end)
 
 ]]
 
-local Game = require 'utils.game' --- @dep utils.game
-local player_return, write_json = _C.player_return, _C.write_json --- @dep expcore.common
+local Game = require 'utils.game'-- @dep utils.game
+local player_return, write_json = _C.player_return, _C.write_json-- @dep expcore.common
 local trace = debug.traceback
 
 local Commands = {

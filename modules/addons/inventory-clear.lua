@@ -1,9 +1,9 @@
 --- Will move players items to spawn when they are banned or kicked, option to clear on leave
 -- @addon Inventory-Clear
 
-local Event = require 'utils.event' --- @dep utils.event
-local events = require 'config.inventory_clear' --- @dep config.inventory_clear
-local move_items = _C.move_items --- @dep expcore.common
+local Event = require 'utils.event'-- @dep utils.event
+local events = require 'config.inventory_clear'-- @dep config.inventory_clear
+local move_items = _C.move_items-- @dep expcore.common
 
 local function clear_items(event)
     local player = game.players[event.player_index]

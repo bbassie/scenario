@@ -1,6 +1,6 @@
-local Gui = require 'utils.gui' --- @dep utils.gui
-local Model = require 'modules.gui.debug.model' --- @dep modules.gui.debug.model
-local Color = require 'utils.color_presets' --- @dep utils.color_presets
+local Gui = require 'utils.gui'-- @dep utils.gui
+local Model = require 'modules.gui.debug.model'-- @dep modules.gui.debug.model
+local Color = require 'utils.color_presets'-- @dep utils.color_presets
 
 local dump = Model.dump
 local dump_text = Model.dump_text

@@ -1,5 +1,5 @@
 
-local Color = require 'utils.color_presets' --- @dep utils.color_presets
+local Color = require 'utils.color_presets'-- @dep utils.color_presets
 local Game = {}
 
 --[[ Note to readers

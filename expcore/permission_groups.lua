@@ -24,9 +24,9 @@ Permission_Groups.new_group('Restricted') -- this defines a new group called "Re
 ]]
 
 
-local Game = require 'utils.game' --- @dep utils.game
-local Event = require 'utils.event' --- @dep utils.event
-local Async = require 'expcore.async' --- @dep expcore.async
+local Game = require 'utils.game'-- @dep utils.game
+local Event = require 'utils.event'-- @dep utils.event
+local Async = require 'expcore.async'-- @dep expcore.async
 
 local Permissions_Groups = {
     groups={}, -- store for the different groups that are created

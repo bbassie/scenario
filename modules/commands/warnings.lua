@@ -3,10 +3,10 @@
     @commands Warnings
 ]]
 
-local Commands = require 'expcore.commands' --- @dep expcore.commands
-local Warnings = require 'modules.control.warnings' --- @dep modules.control.warnings
-local format_chat_player_name = _C.format_chat_player_name --- @dep expcore.common
-local config = require 'config.warnings' --- @dep config.warnings
+local Commands = require 'expcore.commands'-- @dep expcore.commands
+local Warnings = require 'modules.control.warnings'-- @dep modules.control.warnings
+local format_chat_player_name = _C.format_chat_player_name-- @dep expcore.common
+local config = require 'config.warnings'-- @dep config.warnings
 require 'config.expcore.command_role_parse'
 
 --- Gives a warning to a player; may lead to automatic script action.

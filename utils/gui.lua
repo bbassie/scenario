@@ -1,5 +1,5 @@
-local Global = require 'utils.global' --- @dep utils.global
-local ExpGui = require 'expcore.gui' --- @dep expcore.gui
+local Global = require 'utils.global'-- @dep utils.global
+local ExpGui = require 'expcore.gui'-- @dep expcore.gui
 
 local Gui = {}
 local data = {}

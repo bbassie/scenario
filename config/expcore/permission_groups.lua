@@ -5,7 +5,7 @@
 -- @config Permission-Groups
 
 --local Event = require 'utils.event' -- @dep utils.event
-local Permission_Groups = require 'expcore.permission_groups' --- @dep expcore.permission_groups
+local Permission_Groups = require 'expcore.permission_groups'-- @dep expcore.permission_groups
 
 Permission_Groups.new_group('Admin')
 :allow_all()

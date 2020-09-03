@@ -5,13 +5,13 @@
 ]]
 
 -- luacheck:ignore 211/Colors
-local Gui = require 'expcore.gui' --- @dep expcore.gui
-local Roles = require 'expcore.roles' --- @dep expcore.roles
-local Datastore = require 'expcore.datastore' --- @dep expcore.datastore
-local Event = require 'utils.event' --- @dep utils.event
-local config = require 'config.gui.player_list_actions' --- @dep config.gui.player_list_actions
-local Colors = require 'utils.color_presets' --- @dep utils.color_presets
-local format_time = _C.format_time --- @dep expcore.common
+local Gui = require 'expcore.gui'-- @dep expcore.gui
+local Roles = require 'expcore.roles'-- @dep expcore.roles
+local Datastore = require 'expcore.datastore'-- @dep expcore.datastore
+local Event = require 'utils.event'-- @dep utils.event
+local config = require 'config.gui.player_list_actions'-- @dep config.gui.player_list_actions
+local Colors = require 'utils.color_presets'-- @dep utils.color_presets
+local format_time = _C.format_time-- @dep expcore.common
 
 --- Stores all data for the warp gui
 local PlayerListData = Datastore.connect('PlayerListData')

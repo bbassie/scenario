@@ -1,11 +1,11 @@
 --- Adds a compilatron that walks around the spawn area; adapted from redmew code
 -- @addon Compilatron
 
-local Event = require 'utils.event' --- @dep utils.event
-local Global = require 'utils.global' --- @dep utils.global
-local Task = require 'utils.task' --- @dep utils.task
-local Token = require 'utils.token' --- @dep utils.token
-local config = require 'config.compilatron' --- @dep config.compilatron
+local Event = require 'utils.event'-- @dep utils.event
+local Global = require 'utils.global'-- @dep utils.global
+local Task = require 'utils.task'-- @dep utils.task
+local Token = require 'utils.token'-- @dep utils.token
+local config = require 'config.compilatron'-- @dep config.compilatron
 local messages = config.messages
 local locations = config.locations
 

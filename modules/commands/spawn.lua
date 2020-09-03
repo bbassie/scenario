@@ -3,8 +3,8 @@
     @commands Spawn
 ]]
 
-local Commands = require 'expcore.commands' --- @dep expcore.commands
-local Roles = require 'expcore.roles' --- @dep expcore.roles
+local Commands = require 'expcore.commands'-- @dep expcore.commands
+local Roles = require 'expcore.roles'-- @dep expcore.roles
 
 local function teleport(player)
     local surface = player.surface

@@ -10,8 +10,8 @@ Tasks.update_task(task_id, 'We need more iron!', game.player.name)
 
 ]]
 
-local Datastore = require 'expcore.datastore' --- @dep expcore.datastore
-local Global = require 'utils.global' --- @dep utils.global
+local Datastore = require 'expcore.datastore'-- @dep expcore.datastore
+local Global = require 'utils.global'-- @dep utils.global
 
 --- Stores all data for the warp gui
 local TaskData = Datastore.connect('TaskData')

@@ -1,5 +1,5 @@
-local Gui = require 'utils.gui' --- @dep utils.gui
-local Color = require 'utils.color_presets' --- @dep utils.color_presets
+local Gui = require 'utils.gui'-- @dep utils.gui
+local Color = require 'utils.color_presets'-- @dep utils.color_presets
 
 local Public = {}
 

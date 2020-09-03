@@ -1,7 +1,7 @@
 --- This is the main config file for the role system; file includes defines for roles and role flags and default values
 -- @config Roles
 
-local Roles = require 'expcore.roles' --- @dep expcore.roles
+local Roles = require 'expcore.roles'-- @dep expcore.roles
 
 --- Role flags that will run when a player changes roles
 Roles.define_flag_trigger('is_admin',function(player,state)

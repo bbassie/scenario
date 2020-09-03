@@ -4,7 +4,7 @@
 ]]
 
 local Gui = require 'expcore.gui.prototype'
-local mod_gui = require 'mod-gui' --- @dep mod-gui
+local mod_gui = require 'mod-gui'-- @dep mod-gui
 
 local hide_top_flow = Gui.core_defines.hide_top_flow.name
 local show_top_flow = Gui.core_defines.show_top_flow.name

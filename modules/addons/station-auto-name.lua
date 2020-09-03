@@ -1,6 +1,6 @@
 ---LuaPlayerBuiltEntityEventFilters
 ---Events.set_event_filter(defines.events.on_built_entity, {{filter = "name", name = "fast-inserter"}})
-local Event = require 'utils.event' --- @dep utils.event
+local Event = require 'utils.event'-- @dep utils.event
 
 --Credit to Cooldude2606 for using his lua magic to make this function.
 local directions = {

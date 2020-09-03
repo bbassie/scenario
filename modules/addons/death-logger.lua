@@ -1,10 +1,10 @@
 --- Makes markers on the map where places have died and reclaims items if not recovered
 -- @addon Death-Logger
 
-local Event = require 'utils.event' --- @dep utils.event
-local Global = require 'utils.global' --- @dep utils.global
-local config = require 'config.death_logger' --- @dep config.death_logger
-local format_time, move_items = _C.format_time, _C.move_items --- @dep expcore.common
+local Event = require 'utils.event'-- @dep utils.event
+local Global = require 'utils.global'-- @dep utils.global
+local config = require 'config.death_logger'-- @dep config.death_logger
+local format_time, move_items = _C.format_time, _C.move_items-- @dep expcore.common
 
 local deaths = {
     archive={} -- deaths moved here after body is gone

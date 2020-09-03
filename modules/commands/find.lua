@@ -3,7 +3,7 @@
     @commands Find
 ]]
 
-local Commands = require 'expcore.commands' --- @dep expcore.commands
+local Commands = require 'expcore.commands'-- @dep expcore.commands
 require 'config.expcore.command_general_parse'
 
 --- Find a player on your map.

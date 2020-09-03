@@ -1,7 +1,7 @@
-local Gui = require 'utils.gui' --- @dep utils.gui
-local ExpGui = require 'expcore.gui' --- @dep utils.global
-local Color = require 'utils.color_presets' --- @dep utils.color_presets
-local Model = require 'modules.gui.debug.model' --- @dep modules.gui.debug.model
+local Gui = require 'utils.gui'-- @dep utils.gui
+local ExpGui = require 'expcore.gui'-- @dep utils.global
+local Color = require 'utils.color_presets'-- @dep utils.color_presets
+local Model = require 'modules.gui.debug.model'-- @dep modules.gui.debug.model
 
 local dump = Model.dump
 local dump_text = Model.dump_text

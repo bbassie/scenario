@@ -3,8 +3,8 @@
     @commands Home
 ]]
 
-local Commands = require 'expcore.commands' --- @dep expcore.commands
-local Global = require 'utils.global' --- @dep utils.global
+local Commands = require 'expcore.commands'-- @dep expcore.commands
+local Global = require 'utils.global'-- @dep utils.global
 require 'config.expcore.command_general_parse'
 
 local homes = {}

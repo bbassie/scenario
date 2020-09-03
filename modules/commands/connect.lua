@@ -3,9 +3,9 @@
     @commands Connect
 ]]
 
-local Async = require 'expcore.async' --- @dep expcore.async
-local External = require 'expcore.external' --- @dep expcore.external
-local Commands = require 'expcore.commands' --- @dep expcore.commands
+local Async = require 'expcore.async'-- @dep expcore.async
+local External = require 'expcore.external'-- @dep expcore.external
+local Commands = require 'expcore.commands'-- @dep expcore.commands
 require 'config.expcore.command_role_parse'
 local concat = table.concat
 

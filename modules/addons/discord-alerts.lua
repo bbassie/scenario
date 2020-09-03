@@ -1,10 +1,10 @@
 --- Sends alert messages to our discord server when certain events are triggered
 -- @addon Discord-Alerts
 
-local Event = require 'utils.event' --- @dep utils.event
-local Colors = require 'utils.color_presets' --- @dep utils.color_presets
-local write_json, format_time = _C.write_json, _C.format_time --- @dep expcore.common
-local config = require 'config.discord_alerts' --- @dep config.discord_alerts
+local Event = require 'utils.event'-- @dep utils.event
+local Colors = require 'utils.color_presets'-- @dep utils.color_presets
+local write_json, format_time = _C.write_json, _C.format_time-- @dep expcore.common
+local config = require 'config.discord_alerts'-- @dep config.discord_alerts
 
 local function get_player_name(event)
     local player = game.players[event.player_index]
@@ -78,7 +78,7 @@ end
 
 --- Reports added and removed
 if config.player_reports then
-    local Reports = require 'modules.control.reports' --- @dep modules.control.reports
+    local Reports = require 'modules.control.reports'-- @dep modules.control.reports
     Event.add(Reports.events.on_player_reported, function(event)
         local player_name, by_player_name = get_player_name(event)
         emit_event{
@@ -106,7 +106,7 @@ end
 
 --- Warnings added and removed
 if config.player_warnings then
-    local Warnings = require 'modules.control.warnings' --- @dep modules.control.warnings
+    local Warnings = require 'modules.control.warnings'-- @dep modules.control.warnings
     Event.add(Warnings.events.on_warning_added, function(event)
         local player_name, by_player_name = get_player_name(event)
         emit_event{

@@ -3,8 +3,8 @@
     @commands Clear-Inventory
 ]]
 
-local Commands = require 'expcore.commands' --- @dep expcore.commands
-local move_items = _C.move_items --- @dep expcore.common
+local Commands = require 'expcore.commands'-- @dep expcore.commands
+local move_items = _C.move_items-- @dep expcore.common
 require 'config.expcore.command_role_parse'
 
 --- Clears a players inventory

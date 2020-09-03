@@ -4,7 +4,7 @@
 @alias External
 
 @usage-- Printing all server to chat
-local External = require 'expcore.external' --- @dep expcore.external
+local External = require 'expcore.external'-- @dep expcore.external
 
 local message = 'id: %s name: %s version: %s status: %s'
 for server_id, server in pairs(External.get_servers()) do

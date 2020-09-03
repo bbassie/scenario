@@ -5,7 +5,7 @@
 
     @usage
     -- import the module from the control modules
-    local Jail = require 'modules.control.jail' --- @dep modules.control.jail
+    local Jail = require 'modules.control.jail'-- @dep modules.control.jail
 
     -- This will move 'MrBiter' to the jail role and remove all other roles from them
     -- the player name and reason are only so they can be included in the event for user feedback
@@ -20,10 +20,10 @@
     Jail.temp_ban_player('MrBiter', 'Cooldude2606', 'Likes biters too much')
 ]]
 
-local Roles = require 'expcore.roles' --- @dep expcore.roles
-local Game = require 'utils.game' --- @dep utils.game
-local Global = require 'utils.global' --- @dep utils.global
-local move_items = _C.move_items --- @dep expcore.common
+local Roles = require 'expcore.roles'-- @dep expcore.roles
+local Game = require 'utils.game'-- @dep utils.game
+local Global = require 'utils.global'-- @dep utils.global
+local move_items = _C.move_items-- @dep expcore.common
 
 local valid_player = Game.get_player_from_any
 local assign_roles = Roles.assign_player

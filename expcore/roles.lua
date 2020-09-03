@@ -108,13 +108,13 @@ Roles.define_role_order{
 
 ]]
 
-local Game = require 'utils.game' --- @dep utils.game
-local Global = require 'utils.global' --- @dep utils.global
-local Event = require 'utils.event' --- @dep utils.event
-local Groups = require 'expcore.permission_groups' --- @dep expcore.permission_groups
-local Async = require 'expcore.async' --- @dep expcore.async
-local Colours = require 'utils.color_presets' --- @dep utils.color_presets
-local write_json = _C.write_json --- @dep expcore.common
+local Game = require 'utils.game'-- @dep utils.game
+local Global = require 'utils.global'-- @dep utils.global
+local Event = require 'utils.event'-- @dep utils.event
+local Groups = require 'expcore.permission_groups'-- @dep expcore.permission_groups
+local Async = require 'expcore.async'-- @dep expcore.async
+local Colours = require 'utils.color_presets'-- @dep utils.color_presets
+local write_json = _C.write_json-- @dep expcore.common
 
 local Roles = {
     _prototype={},

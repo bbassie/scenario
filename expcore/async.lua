@@ -28,8 +28,8 @@ end)
 Async.wait(60, print_message, game.player, 'One second has passed!')
 
 ]]
-local Task = require 'utils.task' --- @dep utils.task
-local Token = require 'utils.token' --- @dep utils.token
+local Task = require 'utils.task'-- @dep utils.task
+local Token = require 'utils.token'-- @dep utils.token
 
 local Async = {}
 
